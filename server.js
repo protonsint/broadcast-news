@@ -9,11 +9,11 @@ socket = require('socket.io');
 var io = socket.listen(app);
 
 // Configuration
-app.configure(function(){
+/* app.configure(function(){
   app.use("/chat", express.static(__dirname + '/chat'));
   app.use("/admin", express.static(__dirname + '/admin'));
 
-});
+}); */
 
 /* var port = process.env.PORT || 8080;
 app.listen(port, function() {
